@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+body{
+    background-color: rgb(206, 204, 204);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Rubik Distressed', cursive;
+
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+nav ul li{
+    padding: 0 12px; 
+
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+.container{
+    min-height: 72vh; 
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 90%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("bg_meet.jpg");
+    background-position: center;   
+    background-size: contain; 
+}
+
+.Bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+
+
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+
+} 
+.songIteam{
+    height: 50px;
+    display: flex;
+    background-color: whitesmoke;
+    width: 80%;
+    color: black;
+    margin: 12px auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+      
+}
+
+.songIteamcontainer
+{
+    margin: 74px;
+
+
+}
+
+.songIteam img{
+    width: 43px;
+    margin: 5px 23px;
+    border-radius: 34px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+    cursor: pointer;
+ 
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    height: 20px;
+    width: 40px;
+    opacity: 0.8s;
+    transition: opacity 1s ease-in;
+    font-family: 'Varela Round', sans-serif;
+ 
+
+}
